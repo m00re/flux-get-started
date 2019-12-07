@@ -47,7 +47,7 @@ spec:
         - --random-error=false
         env:
         - name: PODINFO_UI_MESSAGE
-          value: "Welcome to Flux, again after the next commit, and the one after this one."
+          value: "Welcome to Flux, again after the next commit, and the one after this one. This time its automated."
         livenessProbe:
           httpGet:
             path: /healthz
